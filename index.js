@@ -26,6 +26,7 @@ class Driver {
     )}
 }
 
+
 let passengerId = 0
 
 class Passenger {
@@ -47,6 +48,7 @@ class Passenger {
       }.bind(this)
   )}
 }
+
 
 let tripId = 0
 
