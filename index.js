@@ -19,11 +19,11 @@ class Driver {
         }.bind(this)
     )}
     
-    passengers() {
-      return this.trips().map(function(passenger) {
+  passengers() {
+    return this.trips().map(function(passenger) {
         return trip.passenger();
-      });
-    }
+    });
+  }
 }
 
 
