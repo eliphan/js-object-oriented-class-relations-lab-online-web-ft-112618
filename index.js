@@ -43,7 +43,7 @@ class Passenger {
   )}
   
   driver() {
-    return store.drivers.find(function(driver) {
+    return this.trips().map(function(driver) {
       return driver.id === this.driverId;
       }.bind(this)
   )}
