@@ -45,17 +45,19 @@ class Trip {
   }
 
     driver() {
-        return store.drivers.find(
-            function(driver) {
-                return driver.id === this.driverId;
+        return store.drivers.find(function(driver) {
+            return driver.id === this.driverId;
             }.bind(this)
-        );
-    }
+        )};
 }
 
 
 
 
 
-
+  driver() {
+    return store.drivers.find(driver => {
+      return driver.id === this.driverId;
+    });
+  }
 
