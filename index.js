@@ -49,10 +49,10 @@ class Trip {
     setDriver(driver) {
         this.driverId = driver.id;
     }
-    user() {
-        return store.users.find(
-            function(user) {
-                return user.id === this.userId;
+    driver() {
+        return store.drivers.find(
+            function(driver) {
+                return driver.id === this.driverId;
             }.bind(this)
         );
     }
