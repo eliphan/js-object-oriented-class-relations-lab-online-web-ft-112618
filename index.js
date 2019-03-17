@@ -51,6 +51,9 @@ class Passenger {
 
 
 
+      return trip.driver();
+    });
+  }
 
 
 let tripId = 0
