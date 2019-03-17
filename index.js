@@ -30,7 +30,6 @@ class Passenger {
     store.passengers.push(this)
   }
 
-  }
 }
 
 let tripId = 0
