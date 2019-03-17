@@ -40,6 +40,8 @@ class Passenger {
           return trip.passengerId === this.id 
         }.bind(this)
   )}
+  
+  
 }
 
 let tripId = 0
