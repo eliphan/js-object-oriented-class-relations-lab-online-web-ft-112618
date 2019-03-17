@@ -18,6 +18,8 @@ class Driver {
           return trip.driverId === this.id 
         }.bind(this)
     )}
+    
+    
 }
 
 
