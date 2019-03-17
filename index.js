@@ -39,11 +39,6 @@ class Passenger {
         }.bind(this)
     )}
     
-  passengers() {
-    return store.passengers.filter(function(passenger) {
-          return driver.passengerId === this.id 
-        }.bind(this)
-    )}  
 }
 
 let tripId = 0
