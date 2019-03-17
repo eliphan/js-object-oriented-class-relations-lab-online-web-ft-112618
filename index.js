@@ -46,7 +46,7 @@ class Trip {
     this.passengerId = passengerId
     store.trips.push(this)
   }
-    setDriver(driver {
+    setDriver(driver) {
         this.driverId = driver.id;
     }
     user() {
