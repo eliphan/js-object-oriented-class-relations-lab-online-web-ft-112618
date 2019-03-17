@@ -56,4 +56,5 @@ class Trip {
             }.bind(this)
         );
     }
+    
 }
